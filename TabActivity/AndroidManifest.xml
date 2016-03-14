@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tabactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hdp"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.ud.mdb.FirstActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.Second"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.Third"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.MovieDetail"
+            android:label="@string/title_activity_movie_detail" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ud.mdb.UpComingMovies"
+            android:label="@string/title_activity_up_coming_movies" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.PopularMovies"
+            android:label="@string/title_activity_popular_movies" >
+        </activity>
+        <activity
+            android:name="com.ud.mdb.ImageViewer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_image_viewer"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest>

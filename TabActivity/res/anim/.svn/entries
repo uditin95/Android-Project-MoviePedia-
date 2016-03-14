@@ -1,0 +1,52 @@
+8
+
+dir
+2724
+https://subversion.assembla.com/svn/sgandroid/CyclingJunkie_New/res/anim
+https://subversion.assembla.com/svn/sgandroid
+
+
+
+2012-10-25T04:35:38.749891Z
+2055
+arunmishra
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ffd6b15e-aac3-4b66-8e4e-fcc9e505f40a
+
+linear_interpolator.xml
+file
+
+
+
+
+2012-10-29T05:50:21.129882Z
+76d53bb7b9f98b7f38c9776ec34d57e9
+2012-10-25T04:35:38.749891Z
+2055
+arunmishra
+
+splash_anim.xml
+file
+
+
+
+
+2012-10-29T05:50:21.133789Z
+bd2633ca2f6be9c0cb74b9d9813fc576
+2012-10-25T04:35:38.749891Z
+2055
+arunmishra
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:gravity="center_vertical"
+	    android:layout_height="105dp"
+	    
+	    android:background="@drawable/custom_shape_list"
+	android:padding="5dp"
+	    >
+		<ImageView android:id="@+id/albumImage" 
+			android:layout_width="105dp"
+			android:layout_height="105dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/ic_launcher"
+			 />
+		<LinearLayout 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_toRightOf="@id/albumImage"
+			android:layout_marginLeft="10dp"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/r"
+			android:id="@+id/tvs">
+			<TextView android:text="Album Name" 
+				android:id="@+id/album_txt_01"
+				android:textColor="#000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textSize="15dp" 
+				android:ellipsize="end"
+				android:singleLine="true" 
+				android:maxLines="1"
+				/>
+			<TextView android:text="Release date"
+				android:id="@+id/album_txt_02"
+				android:textColor="#999967"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="13dp" />
+			
+			<TextView android:text="vote"
+				android:id="@+id/album_txt_03"
+				android:textColor="#003366"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="13dp" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="wrap_content" 
+			android:layout_height="105dp"
+			android:orientation="vertical"
+			android:layout_marginLeft="10dp"
+			android:layout_centerVertical="true"
+			android:gravity="center"
+			android:id="@+id/r"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/bar">
+			<ImageView 
+			    android:layout_height="40dp"
+			    android:layout_width="40dp"
+			    android:src="@drawable/star"/>
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="40dp"
+			    android:id="@+id/av"/>
+		</LinearLayout>
+		
+	</RelativeLayout>
